@@ -13,3 +13,33 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: salmon;
 }
+
+#productContainer {
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  
+  .productCard {
+      background-color: white;
+      width: 46%;
+      margin: 1%;
+      box-shadow: 10px 10px;
+      outline: 3px solid salmon;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      padding-left: 10px;
+      padding-right: 10px;
+    
+  }
+  
+  .image__productCard {
+      max-width: 98%;
+      image-orientation: center;
+  }
+
+  h2 {
+    color: salmon;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-indent: 2ch;
+}
